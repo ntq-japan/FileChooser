@@ -1,0 +1,49 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Using for define text on hdmi screen -->
+    <dimen name="text">14sp</dimen>
+    <dimen name="text_small">12sp</dimen>
+
+    <!-- Using for define header text -->
+    <dimen name="h1">26dp</dimen>
+    <dimen name="h2">24dp</dimen>
+    <dimen name="h3">45sp</dimen>
+    <dimen name="h4">34sp</dimen>
+    <dimen name="h5">24sp</dimen>
+    <dimen name="h6">16sp</dimen>
+
+    <!-- Using for divider, line, border -->
+    <dimen name="divider">1dp</dimen>
+    <dimen name="underline">2dp</dimen>
+    <dimen name="shadow_min">2dp</dimen>
+    <dimen name="shadow_max">3dp</dimen>
+    <dimen name="margin_min">2dp</dimen>
+    <dimen name="margin_max">5dp</dimen>
+
+    <!-- Using for button conner -->
+    <dimen name="conner_button">8dp</dimen>
+
+    <!-- Using for margin and padding -->
+    <dimen name="space0">48dp</dimen>
+    <dimen name="space1">40dp</dimen>
+    <dimen name="space2">32dp</dimen>
+    <dimen name="space3">28dp</dimen>
+    <dimen name="space4">24dp</dimen>
+    <dimen name="space5">20dp</dimen>
+    <dimen name="space6">16dp</dimen>
+    <dimen name="space7">12dp</dimen>
+    <dimen name="space8">8dp</dimen>
+    <dimen name="space9">4dp</dimen>
+
+    <!-- Style area -->
+    <dimen name="item_min_height">38dp</dimen>
+
+    <!-- Using for sizing -->
+    <dimen name="avatar_size">38dp</dimen>
+    <dimen name="avatar_frame_size">46dp</dimen>
+    <dimen name="list_file_chooser_height">200dp</dimen>
+    <dimen name="list_language_width">95dp</dimen>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Using for action bar, title, header -->
+    <color name="primary_light">#CAC5C9</color>
+    <color name="primary">#3F51B5</color>
+    <color name="primary_dark">#303F9F</color>
+
+    <!-- Using for highlight item -->
+    <color name="accent_light">#FF4081</color>
+    <color name="accent_dark">#F50057</color>
+
+    <!-- Using for screen background -->
+    <color name="background_screen">#E2E4E5</color>
+
+    <!-- Using for background of widget like dialog, view item -->
+    <color name="background_widget_light">#FFFFFF</color>
+    <color name="background_widget_dark">#E0E0E0</color>
+    <color name="background_widget_dim">#b2000000</color>
+
+    <!-- Using for application text -->
+    <color name="primary_text">#464646</color>
+    <color name="primary_text_dark">#000000</color>
+    <color name="secondary_text">#616161</color>
+
+    <!-- Using for text on colored background, default icon -->
+    <color name="icon">#FFFFFF</color>
+
+    <!-- Using for disable item, hint -->
+    <color name="disable_light">#BDBDBD</color>
+    <color name="disable_dark">#757575</color>
+
+    <!-- Using for divider, line, border -->
+    <color name="divider">#33000000</color>
+    <color name="shadow">#11949494</color>
+
+    <!-- Using for positive item -->
+    <color name="positive">#43A047</color>
+    <color name="positive_dark">#1B5E20</color>
+
+    <!-- Using for warning item -->
+    <color name="warning">#F4511E</color>
+    <color name="warning_dark">#BF360C</color>
+
+    <!-- Using for negative item -->
+    <color name="negative">#E53935</color>
+    <color name="negative_dark">#B71C1C</color>
+</resources>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_widget_light"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title"
+        style="@style/TextWidget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/background_widget_dark"
+            android:orientation="horizontal"
+            android:padding="@dimen/space8">
+
+            <Button
+                android:id="@+id/back"
+                style="@style/ButtonPrimary"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/space9"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/navigate_root"
+                style="@style/ButtonPrimary"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/space9"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/navigate_sdcard"
+                style="@style/ButtonPrimary"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/shadow_max"
+            android:background="@drawable/shadow_bottom" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/shadow_min"
+            android:layout_gravity="bottom"
+            android:background="@drawable/shadow_top" />
+    </FrameLayout>
+
+
+    <TextView
+        android:id="@+id/empty"
+        style="@style/Text"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_file_chooser_height"
+        android:gravity="center"
+        android:textColor="@color/secondary_text"
+        android:textSize="@dimen/h6" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/directory_file_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background_widget_dark">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/shadow_max"
+            android:background="@drawable/shadow_bottom" />
+
+        <Button
+            android:id="@+id/decide"
+            style="@style/ButtonPositive"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/space8"
+            android:layout_marginLeft="@dimen/space1"
+            android:layout_marginRight="@dimen/space1"
+            android:layout_marginTop="@dimen/space8" />
+    </FrameLayout>
+</LinearLayout>
