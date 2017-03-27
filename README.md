@@ -9,6 +9,13 @@ Demo a file chooser dialog in Android. This project base on [Android Matterial D
 
 ### Getting Started
 Eazy way to call the FileChooser Dialog like a AlertDialog. Please note that don't forget to check the runtime permission.
+
+##### Dependence:
+```
+compile 'ninja.lbs.filechooser:filechooser:1.0.0'
+```
+
+##### Demo code:
 ```java
 String dialogTag = FileChooserDialog.class.getName();
 Fragment oldDialog = getFragmentManager().findFragmentByTag(dialogTag);
